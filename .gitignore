@@ -1,0 +1,5 @@
+*.o
+*~
+
+tests/test-*
+!tests/test-*.c
