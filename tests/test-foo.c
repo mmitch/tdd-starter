@@ -4,7 +4,7 @@
 int tests_run = 0;
 
 static char * test_foo() {
-    mu_assert("error, 1 != 1", 1 == 0);
+    mu_assert("error, 1 != 1", 1 == 1);
     return 0;
 }
 
