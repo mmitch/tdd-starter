@@ -19,6 +19,6 @@ setup
 pointers
 --------
 
-* (minunit)[http://www.jera.com/techinfo/jtns/jtn002.html] is a
+* [minunit](http://www.jera.com/techinfo/jtns/jtn002.html) is a
   minimal unit test framework for C
 
