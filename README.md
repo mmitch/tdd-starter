@@ -29,5 +29,5 @@ continuous testing
 
 1. install ``Test::Continuous``
 
-2. simply run ``autoprove`` - it will watch your file edits and re-run
-   any affected tests as needed
+2. run ``autoprove -Ilib`` - it will watch your file edits and re-run
+   any affected tests as needed (``-Ilib`` might be skipped, see above)
