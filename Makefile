@@ -12,7 +12,7 @@ test: $(TEST_BINARIES)
 	for TEST in $(TEST_BINARIES); do \
 		echo ; \
 		echo Testing $$TEST: ; \
-		$$TEST || true ; \
+		$$TEST || exit ; \
 	done
 
 clean:
