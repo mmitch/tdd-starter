@@ -3,7 +3,7 @@ QUnit.test( "Test Name", function( assert ) {
 });
 
 QUnit.test( "External Function", function( assert ) {
-	assert.notOk( invertBoolean( true ), "Script.js is accesible" );
+	assert.notOk( invertBoolean( true ), "Script.js is accessible" );
 });
 
 QUnit.test( "This test fails", function( assert ) {
