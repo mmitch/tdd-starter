@@ -1,0 +1,4 @@
+*~
+*.bak
+
+.phpunit.result.cache
