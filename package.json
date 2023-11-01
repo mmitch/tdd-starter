@@ -1,0 +1,23 @@
+{
+  "name": "foo-test",
+  "version": "0.0.1",
+  "description": "TDD starter project using Node.js, JavaScript, NPM, Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmitch/tdd-starter.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mmitch/tdd-starter/issues"
+  },
+  "homepage": "https://github.com/mmitch/tdd-starter#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

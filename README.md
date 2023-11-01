@@ -1,5 +1,5 @@
-tdd-starter
-===========
+tdd-starter using Node.js, NPM, Mocha and Chai
+==============================================
 
 This repository contains templates to start test driven development
 for a new project.  It provides a setup that includes testing
@@ -11,3 +11,9 @@ branches for the templates for different programming languages,
 frameworks and setups.
 
 project homepage: https://github.com/mmitch/tdd-starter
+
+setup
+-----
+
+1. run `npm ci` to install dependencies
+2. run `npm test` to run the tests
