@@ -1,4 +1,4 @@
-const expect = require('chai').expect;
+import { expect } from 'chai';
 
 describe('dummy test', () => {
     it('should pass', () =>
@@ -6,6 +6,6 @@ describe('dummy test', () => {
     );
 
     it('should fail', () =>
-        expect('Hello World').to.have.length(5)
+        expect("Hello World").to.have.length(5)
     );
 });

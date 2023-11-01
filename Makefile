@@ -7,4 +7,4 @@ test:
 
 clean:
 	find -type f -name '*~' -delete
-	rm -rf coverage/
+	rm -rf coverage/ built/

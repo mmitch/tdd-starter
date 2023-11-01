@@ -1,5 +1,5 @@
-tdd-starter using Node.js, NPM, Mocha and Chai
-==============================================
+tdd-starter using Node.js, TypeScript, NPM, Mocha and Chai
+==========================================================
 
 This repository contains templates to start test driven development
 for a new project.  It provides a setup that includes testing

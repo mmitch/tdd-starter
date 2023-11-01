@@ -4,6 +4,7 @@
   "description": "TDD starter project using Node.js, JavaScript, NPM, Mocha and Chai",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build ",
     "test": "mocha"
   },
   "repository": {
@@ -17,7 +18,12 @@
   },
   "homepage": "https://github.com/mmitch/tdd-starter#readme",
   "devDependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "^20.8.10",
     "chai": "^4.3.10",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
